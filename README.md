@@ -5,10 +5,6 @@ its largest constituents, comparing ordinary least squares against principal
 component regression, and evaluating both by annualised Sharpe ratio under a
 long-short strategy.
 
-The short version: neither method produced a reliably positive out-of-sample
-Sharpe, and the more interesting result is *why* OLS looked better than it
-deserved to.
-
 ## Setup
 
 Ten constituents (AAPL, TSLA, V, MSFT, JNJ, AMZN, JPM, AVGO, MA, NVDA) plus the
