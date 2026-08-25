@@ -44,15 +44,14 @@ But moderating the forecasts did not improve the Sharpe. One-factor PCR was
 negative across the whole test range, roughly −0.11 to −2.48. Two factors were
 mixed, from −3.77 to 2.26, and still produced unreasonable positions.
 
-**The uncomfortable conclusion.** Under this specific strategy, OLS scores better
-than PCR despite making visibly worse forecasts. That is an artefact of the
+**The conclusion.** Under this specific strategy, OLS scores better
+than PCR despite making visibly worse forecasts. That is a property of the
 strategy rather than a fact about the models: because the position is always
 ±1 unit regardless of forecast magnitude, only the *sign* of the forecast is ever
-used. OLS's wild magnitudes are therefore free, and PCR's main advantage,
+used. OLS's wild magnitudes therefore do not matter, and PCR's main advantage,
 producing sensible position sizes, is thrown away before it can help.
 
-So the honest reading is not "OLS beats PCR". It is that this evaluation cannot
-distinguish them, because a sign-only strategy discards exactly the information
+This evaluation cannot distinguish them, because a sign-only strategy discards exactly the information
 PCR improves. A size-scaled strategy would be the natural next step and would
 probably reverse the ranking.
 
